@@ -797,8 +797,8 @@ import streamlit as st
 # -------------------------
 # Page / Config
 # -------------------------
-st.set_page_config(page_title="IPL Analytics — Advanced", layout="wide")
-st.title("🏏 IPL Analytics — Advanced (General • Team • Player • Comparison)")
+st.set_page_config(page_title="CricStats", layout="wide")
+st.title("🏏 CricStats — Advanced (General • Team • Player • Comparison)")
 
 # -------------------------
 # Helper utilities
@@ -1310,4 +1310,4 @@ with tabs[4]:
         st.info(f"No `{os.path.basename(pdf_path)}` found in the folder. Place the PDF beside this app to enable preview/download.")
 
 st.markdown("---")
-st.caption("Built with Streamlit — Advanced IPL Insights (General → Team → Player → Comparison). Modify thresholds and filters inside the app file as needed.")
+st.caption("Built By Henil Bhavsar Advanced IPL Insights (General → Team → Player → Comparison). Modify thresholds and filters inside the app file as needed.")
